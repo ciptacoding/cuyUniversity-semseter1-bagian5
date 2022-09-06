@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cuy University Sesi 5</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-login">
+        <h2>Login Dulu Bosku!</h2>
+        <input id="logUsername" type="text" name="username" placeholder="Username" required />
+        <input id="logPassword" type="password" name="password" placeholder="Password" required />
+        <button id="btnLogin" onclick="onLogin()">Login</button>
+        <h4>Atau</h4>
+        <button id="register" type="submit" onclick="toRegister()">Register?</button>
+      </div>
+      <div class="form-register">
+        <h2>Daftar Dulu Bosku!</h2>
+        <input id="regUsername" type="text" placeholder="Username" required />
+        <input id="regPassword" type="password" placeholder="Password" required />
+        <input id="valPassword" type="password" placeholder="Ulang Password" required />
+        <input id="btnRegister" type="submit" value="Register" onclick="onRegister()" />
+        <a href="">Kembali ke menu login ?</a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

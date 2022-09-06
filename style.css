@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: black;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 80px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 08);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.form-register {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 80px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+input,
+button,
+a {
+  margin: 15px 20px;
+  padding: 10px 20px;
+  display: block;
+}
